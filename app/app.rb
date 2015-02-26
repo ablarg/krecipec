@@ -8,7 +8,7 @@ class App < Sinatra::Base
   set :root, File.dirname(__FILE__)
 
   configure :production do
-    set :dir, "/var/lib/krecipec"
+    set :dir, "/app"
   end
   configure :development do
     set :dir, "/tmp/krecipec"

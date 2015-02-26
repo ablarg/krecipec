@@ -17,4 +17,5 @@ stderr_path "/var/log/krecipec.log"
 
 worker_processes 2
 
-working_directory "/home/rcrowley/www/krecipec"
+working_directory "/app"
+
