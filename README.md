@@ -15,7 +15,7 @@ This fork exists to provide a version of the app suitable for deployment.
   [Rdiscount]:https://github.com/davidfstr/rdiscount
 
 Prerequistes:
-Docker installed locally to build the image
+* Docker installed locally to build the image
 
   
 Usage:
@@ -26,3 +26,4 @@ sh build.sh
 if all went well, you should now have a running docker container hosting krecipe.
 
 Issues
+* Can't get my docker host to allow me access to the containerized app, although I can verify the app is running.
